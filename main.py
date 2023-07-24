@@ -26,7 +26,7 @@ def sign(loop):
 
     last = time.perf_counter()
     delta = (last - first )* 1000
-    print(f"{loop}: {delta:.2f}ms")
+    print(f"{loop+1}: {delta:.2f}ms")
     results.append(delta)
 
 def run():
