@@ -5,7 +5,6 @@ services:
   i2ctester:
     build:
       context: ./
-      network: host
     network_mode: host
     volumes:
       - /proc:/hostfs/proc
